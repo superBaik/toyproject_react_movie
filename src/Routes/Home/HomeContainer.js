@@ -11,6 +11,8 @@ export default class extends React.Component {
     error: null,
     loading: true
   };
+
+  
   async componentDidMount() {
     try {
       const {
